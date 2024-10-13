@@ -1,46 +1,30 @@
-# John Doe's Resume Website
+# Abhay Aneesh - Cybersecurity Enthusiast
 
-Welcome to my personal resume website, hosted on [GitHub Pages](https://your-username.github.io/). This website is a simple, clean, and efficient way to present my professional background, including work experience, skills, and education.
+Welcome to my personal resume website, hosted via [GitHub Pages](https://your-username.github.io/). This site serves as a concise presentation of my cybersecurity interests, hands-on experience, and skills in defending digital environments.
 
-## Live Demo
-You can view the live website at: [your-username.github.io](https://your-username.github.io/)
+## Live Website
+You can view the live version of my resume at: [your-username.github.io](https://your-username.github.io/)
 
 ---
 
 ## About Me
-I am John Doe, a dedicated web developer with a focus on creating efficient and user-friendly websites. My expertise lies in developing solutions that are both functional and aesthetically pleasing, with a commitment to maintaining clean and maintainable code.
+I am Abhay Aneesh, a cybersecurity enthusiast with a deep interest in network security, incident response, and ethical hacking. My focus is on developing and applying security techniques to safeguard systems and data from modern cyber threats.
 
-- **Location**: Anytown, USA
-- **Current Role**: Web Developer at XYZ Corp
-- **Email**: [johndoe@example.com](mailto:johndoe@example.com)
-
----
-
-## Work Experience
-
-| Position             | Company       | Year        |
-| -------------------- | ------------- | ----------- |
-| **Web Developer**     | XYZ Corp      | 2020 - Present |
-| **Intern**            | ABC Inc       | 2019 - 2020 |
+- **Location**: Bangalore, India
+- **Current Focus**: Enhancing skills in incident response, network security, and cloud security.
+- **Email**: [cruisestorm143@gmail.com](mailto:cruisestorm143@gmail.com)
 
 ---
 
-## Skills
+## Professional Interests
 
-- **Web Development**: HTML, CSS, JavaScript
-- **Programming Languages**: Python, Java
-- **Tools**: Git, GitHub
-
----
-
-## Education
-
-- **B.Sc. in Computer Science** – University of Tech, 2016 - 2020
+- **Incident Response**: Building efficient workflows for identifying, analyzing, and responding to cyber threats.
+- **Network Security**: Implementing security controls to defend against malicious actors and prevent intrusions.
+- **Ethical Hacking**: Learning and practicing penetration testing techniques to assess and improve system security.
+- **Cloud Security**: Applying security measures to protect cloud infrastructures and data privacy.
 
 ---
 
-## How to Access the Project
+## Internship Experience
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/your-username.github.io.git
+I recently completed a one-month **BEL Summer Internship** in 2024, where
