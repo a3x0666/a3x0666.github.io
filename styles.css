@@ -13,9 +13,18 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+header {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
     color: #333;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
 }
 
 h2 {
@@ -32,11 +41,6 @@ ul {
 
 ul li {
     padding: 5px 0;
-}
-
-.contact {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 a {
