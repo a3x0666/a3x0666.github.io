@@ -10,7 +10,13 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
 }
 
 header {
@@ -20,6 +26,11 @@ header {
 
 h1 {
     color: #333;
+    transition: color 0.3s;
+}
+
+h1:hover {
+    color: #007BFF;
 }
 
 .subtitle {
@@ -32,6 +43,11 @@ h2 {
     padding-bottom: 5px;
     margin-top: 30px;
     color: #333;
+    transition: transform 0.3s;
+}
+
+h2:hover {
+    transform: translateY(-3px);
 }
 
 ul {
@@ -41,13 +57,31 @@ ul {
 
 ul li {
     padding: 5px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+ul li:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
 }
 
 a {
     color: #007BFF;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
 }
