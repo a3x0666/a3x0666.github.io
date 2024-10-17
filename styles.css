@@ -1,87 +1,98 @@
-body {
-    font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 30px auto;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    transition: transform 0.3s;
-}
-
-.container:hover {
-    transform: scale(1.02);
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 h1 {
+    font-size: 2.5rem;
     color: #333;
-    transition: color 0.3s;
-}
-
-h1:hover {
-    color: #007BFF;
+    margin-bottom: 10px;
 }
 
 .subtitle {
-    font-size: 1.2em;
-    color: #555;
+    font-size: 1.2rem;
+    color: #6c757d;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    font-size: 1.8rem;
+    color: #495057;
+    border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
-    margin-top: 30px;
-    color: #333;
-    transition: transform 0.3s;
+    margin-top: 40px;
 }
 
-h2:hover {
-    transform: translateY(-3px);
+p {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #555;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
 ul li {
-    padding: 5px 0;
-    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px 0;
+    font-size: 1rem;
 }
 
-ul li:hover {
-    background-color: #e9ecef;
-    transform: translateX(5px);
+ul li strong {
+    color: #333;
 }
 
 a {
-    color: #007BFF;
+    color: #007bff;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    text-decoration: underline;
     color: #0056b3;
+    text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
     }
 
-    .subtitle {
-        font-size: 1em;
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, ul li {
+        font-size: 0.9rem;
     }
 }
