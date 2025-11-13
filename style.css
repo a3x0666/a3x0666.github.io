@@ -1,0 +1,116 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Line height for readability */
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center-align text */
+}
+
+header h1 {
+    font-size: 2.5em; /* Large font size for the main heading */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets from the list */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Make links appear side by side */
+    margin: 0 15px; /* Space out the links */
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the links bold */
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Section Styling */
+section {
+    margin: 30px 0; /* Add margin between sections */
+    padding: 20px;
+    background-color: #fff; /* White background for each section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+h2 {
+    font-size: 2em; /* Make the section headings bigger */
+    margin-bottom: 10px; /* Space between the heading and content */
+    color: #333; /* Dark text color */
+}
+
+p {
+    font-size: 1.1em; /* Slightly larger text */
+    color: #555; /* Light gray text */
+}
+
+a {
+    color: #333; /* Normal link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffd700; /* Highlight links on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Center-align footer text */
+    padding: 15px 0;
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack the navigation links vertically */
+        margin: 10px 0; /* Add space between links */
+    }
+
+    header h1 {
+        font-size: 2em; /* Smaller font for smaller screens */
+    }
+
+    section {
+        margin: 20px; /* Add some spacing on smaller screens */
+    }
+}
+iframe {
+    border: none;
+    width: 100%; /* Make it take up 100% of its container's width */
+    max-width: 300px; /* Set a maximum width so it doesn’t get too large */
+    height: 100px; /* Set the height to match the badge's height */
+    margin-top: 20px; /* Add space above the iframe */
+    display: block; /* Make the iframe a block element to avoid inline issues */
+    overflow: hidden; /* Prevent overflow */
+}
+section {
+    overflow: hidden;
+}
